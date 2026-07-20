@@ -1,0 +1,33 @@
+@font-face{
+    font-family: 'bedstead';
+    src: url('./fonts/bedstead.otf');
+}@font-face{
+    font-family: 'techOne';
+    src: url("./fonts/torwelten-mono_ufonts.com.ttf");
+}@font-face{
+    font-family: 'andromeda';
+    src:url("./fonts/Andromeda-eR2n.ttf");
+}@font-face{
+    font-family: 'chronospher';
+    src:url("./fonts/Chronosfer-Demo.ttf");
+    src:url("./fonts/Chronosfer-Demo.otf");
+}@font-face{
+    font-family: 'orbitron';
+    src: url('./fonts/orbitron/Orbitron-Regular.ttf') format('truetype');
+    src: url('./fonts/orbitron/Orbitron-Bold.ttf') format('truetype');
+    src: url('./fonts/orbitron/Orbitron-ExtraBold.ttf') format('truetype');
+    src: url('./fonts/orbitron/Orbitron-Medium.ttf') format('truetype');
+    src: url('./fonts/orbitron/Orbitron-SemiBold.ttf') format('truetype');
+}@font-face{
+    font-family: 'spaceAge';
+    src: url('./fonts/space age.ttf') format('truetype');
+}@font-face{
+    font-family: 'octoFont';
+    src: url('./fonts/eightgon/Eightgon-OGn6p.ttf') format('truetype');
+}@font-face{
+    font-family: 'pitViper';
+    src: url(./fonts/pitviper/PitviperExtended.ttf);
+    src: url(./fonts/pitviper/Pitviper.ttf);
+    src: url(./fonts/pitviper/PitviperExtended-Italic.ttf);
+    src: url(./fonts/pitviper/Pitviper-Italic.ttf);
+}

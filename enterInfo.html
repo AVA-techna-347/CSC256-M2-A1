@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <META charset="UTF-8">
+        <META name="viewport" content="width=device-width, initial-scale=1.0">
+        <TITLE>Home</TITLE>
+        <LINK rel="icon" href="./images/icon/UAT Logo.png">
+        <LINK rel="stylesheet" href="paralax.css">
+        <LINK rel="stylesheet" href="theme.css">
+        <LINK rel="stylesheet" href="toggleTheme.css">
+        <LINK rel="stylesheet" href="font.css">
+    </HEAD>
+    <BODY>
+
+        <!-- Navigational plane -->
+
+        <NAV>
+            <DIV>
+                <TABLE>
+                    <TR>
+                        <DIV class="navHeader">
+                            <IMG id="logo" src="./images/icon/Tech 1-o.png">
+                            <H1>ava<SPAN id="logoFont02">Tech</SPAN></H1>
+                        </DIV>
+                        <TD><BUTTON onclick="window.location.href='index.html'">Home</BUTTON></TD>
+                        <TD><BUTTON onclick="window.location.href='lego.html'">Lego</BUTTON></TD>
+                        <TD><BUTTON onclick="window.location.href='minecraft.html'">Minecraft</BUTTON></TD>
+                        <TD><BUTTON DISABLED="true" onclick="window.location.href='enterInfo.html'">Sign in</BUTTON></TD>
+                        <TD><BUTTON id="themeBtn">Toggle Theme</BUTTON></TD>
+                        
+                    </TR>
+                </TABLE>
+            </DIV>
+        </NAV>
+
+        <!-- Header -->
+
+        <DIV class="headerImg" id="signInHeader">
+            <HEADER>
+                <H2>Makayla's Memories and Favorite Images</H2>
+            </HEADER>
+        </DIV>
+
+        <!-- Article -->
+
+        <ARTICLE>
+            <!--Email textEntry-->
+        <DIV class="labelInput">Name: <INPUT id = "inName" required></DIV>
+        <BUTTON onClick="getName()" class="submit-btn"></BUTTON>
+        <DIV class="outputTxt" id="outName"></DIV><BR>
+
+        <!--Major textEntry-->
+        <DIV class="labelInput">Major: <INPUT id="inMajor"></DIV>
+        <BUTTON onClick="getMajor()" class="submit-btn"></BUTTON>
+        <DIV class="outputTxt" id = "outMajor"></DIV><BR>
+        
+        <!--DoI textEntry-->
+        <DIV class="labelInput">Date of Initalization (DoI): <INPUT id="inDOI"></DIV>
+        <BUTTON onClick="getDOI()" class="submit-btn"></BUTTON>
+        <DIV class="outputTxt" id = "outDOI"></DIV><BR>
+
+        <!--DoG textEntry-->
+        <DIV class="labelInput">Date of Graduation (DoG): <INPUT id="inDOG"></DIV>
+        <BUTTON onClick="getDOG()" class="submit-btn"></BUTTON>
+        <DIV class="outputTxt" id = "outDOG"></DIV><BR>
+        
+        <!--Email textEntry-->
+        <DIV class="labelInput">Email: <INPUT id="inEmail"></DIV>
+        <BUTTON onClick="getEmail()" class="submit-btn"></BUTTON>
+        <DIV class="outputTxt" id = "outEmail"></DIV>
+
+        </ARTICLE>
+
+        <!-- Footer -->
+         
+        <FOOTER>
+            <TABLE>
+                <TR>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                </TR>
+                <TR>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                </TR>
+                <TR>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                </TR>
+                <TR>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                </TR>
+                
+            </TABLE>
+        </FOOTER>
+    </BODY>
+    <SCRIPT SRC="toggleTheme.js"></SCRIPT>
+    <SCRIPT src = "getInput.js"></SCRIPT>
+</HTML>

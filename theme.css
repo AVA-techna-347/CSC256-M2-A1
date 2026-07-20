@@ -1,0 +1,101 @@
+/*Nav division*/
+
+#logo{
+    height: 40px;
+}#themeBtn{
+    background: linear-gradient(0deg, #fff, #70c8ff);
+    border: 2px solid #707070;
+    Border-radius: 4px;
+    color: rgb(140, 140, 140);
+}#themeBtnactive{
+    background: linear-gradient(0deg, #70c8ff, #ffffff);
+}#themeBtn:checked{
+    background: linear-gradient(0deg, #ffffff, #70ff70);
+}.navHeader{
+    display: flex;
+    align-items: center;
+    background: -webkit-linear-gradient(90deg, #777, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}#logoFont02{
+    font-family: 'orbitron';
+    font-sizE: 20px;
+}
+
+/*Header*/
+
+header{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    background-image: linear-gradient(#747474dd, #474747dd);
+}.headerImg{
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+}#homeHeader{
+    background-image: url("./images/dean's list (web cut).png");
+}#legoHeader{
+    background-image: url("./images/lego/white lego bricks.jpg");
+}#minecraftHeader{
+    background-image: url("./images/minecraft/Makava at sunrise.png");
+}#signInHeader{
+    background-image: url("./images/icon/Tech 1-o.png");
+}H2{
+    font-family: "andromeda";
+    background: -webkit-linear-gradient(90deg, #70c8ff, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Article/Main*/
+
+H3{
+    font-family: "orbitron";
+    font-weight: bold;
+}H4{
+    font-family: "orbitron";
+    font-weight: bold;
+}P{
+    font-family: "orbitron";
+    font-weight: light;
+}.slideThrough{
+    object-fit:cover;
+    height: 200px;
+    border: 4px solid #70c8ff;
+    border-radius: 7px;
+}.labelInput{
+    font-family: 'orbitron';
+}.outputTxt{
+    font-family: bedstead;
+    color: #70c8ff;
+}
+
+/*Input and Text*/
+
+input{
+    font-family: 'beadstead';
+}H1{
+    font-family: spaceAge;
+}button{
+    border: 3px outset #70c8ff;
+    background: linear-gradient(0deg, #474747, #747474);
+    color: #fff;
+    font-family: orbitron;
+    font-size: 10px;
+    width:100px;
+}button:disabled{
+    border-color: #df77ff;
+    color: #afafaf;
+    border-style: inset;
+    background: linear-gradient(0deg, #747474, #474747);
+}button:active{
+    background: linear-gradient(0deg, #747474, #474747);
+    border-style: inset;
+}

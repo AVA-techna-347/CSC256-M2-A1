@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <META charset="UTF-8">
+        <META name="viewport" content="width=device-width, initial-scale=1.0">
+        <TITLE>LEGO</TITLE>
+        <LINK rel="icon" href="./images/icon/UAT Logo.png">
+        <LINK rel="stylesheet" href="paralax.css">
+        <LINK rel="stylesheet" href="theme.css">
+        <LINK rel="stylesheet" href="toggleTheme.css">
+        <LINK rel="stylesheet" href="font.css">
+    </HEAD>
+    <BODY>
+
+        <!-- Navigational plane -->
+
+        <NAV>
+            <DIV>
+                <TABLE>
+                    <TR>
+                        <DIV class="navHeader" id="legoNav">
+                            <IMG id="logo" src="./images/icon/Tech 1-o.png">
+                            <H1>ava<SPAN id="logoFont02">Tech</SPAN></H1>
+                        </DIV>
+                        <TD><BUTTON onclick="window.location.href='index.html'">Home</BUTTON></TD>
+                        <TD><BUTTON DISABLED="true" onclick="window.location.href='lego.html'">Lego</BUTTON></TD>
+                        <TD><BUTTON onclick="window.location.href='minecraft.html'">Minecraft</BUTTON></TD>
+                        <TD><BUTTON onclick="window.location.href='enterInfo.html'">Sign in</BUTTON></TD>
+                        <TD><BUTTON id="themeBtn">Toggle Theme</BUTTON></TD>
+                    </TR>
+                </TABLE>
+            </DIV>
+        </NAV>
+
+        <!-- Header -->
+
+        <DIV class="headerImg" id="legoHeader">
+            <HEADER>
+                <H2>Makayla's Memories and Favorite Images</H2>
+            </HEADER>
+        </DIV>
+
+        <!-- Article -->
+
+        <ARTICLE>
+            <H3>Lego</H3>
+            <!-- Lego Images -->
+            <H4>Favorite LEGO Images</H4>
+            <IMG class="slideThrough" id="legoImgSlide" src="" alt="Lego images from iStock Images">
+            <DIV>
+                <BUTTON id="legoImgPrev" onclick="legoImgPrev()">Previous</BUTTON>
+                <BUTTON id="legoImgNext" onclick="legoImgNext()">Next</BUTTON>
+            </DIV>
+            
+            <!-- Lego Videos -->
+            <H4>My LEGO Motion Pictures</H4>
+            <VIDEO class="slideThrough" id="legoVdoSlide" controls>
+                <SOURCE src="">
+            </VIDEO>
+            <DIV>
+                <BUTTON id="legoVdoPrev" onclick="legoVdoPrev()">Previous</BUTTON>
+                <BUTTON id="legoVdoNext" onclick="legoVdoNext()">Next</BUTTON>
+            </DIV>
+        </ARTICLE>
+
+        <!-- Footer -->
+         
+        <FOOTER>
+            <TABLE>
+                <TR>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                </TR>
+                <TR>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                </TR>
+                <TR>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                </TR>
+                <TR>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                    <TD></TD>
+                </TR>
+                
+            </TABLE>
+        </FOOTER>
+    </BODY>
+    <SCRIPT SRC=""></SCRIPT>
+    <SCRIPT SRC="slideshow.js"></SCRIPT>
+    <SCRIPT SRC="toggleTheme.js"></SCRIPT>
+    <SCRIPT>
+        legoVdoDisplay(indexLegoVdo);
+        legoImgDisplay(indexLegoImg);
+    </SCRIPT>
+</HTML>
